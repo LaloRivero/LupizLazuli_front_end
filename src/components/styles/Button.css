@@ -1,1 +1,15 @@
 @import url('./Colors.css');
+
+.Button{
+  background-color: var(--pink);
+  padding:15px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Forum';
+  font-weight: 100;
+  font-size: 18px;
+}
+.Button:hover{
+  background-color: var(--dark-pink);
+}
