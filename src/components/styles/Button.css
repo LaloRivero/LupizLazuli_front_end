@@ -2,13 +2,13 @@
 
 .Button{
   background-color: var(--pink);
-  padding:15px 25px;
+  padding:20px 50px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   font-family: 'Forum';
   font-weight: 100;
-  font-size: 18px;
+  font-size: 20px;
 }
 .Button:hover{
   background-color: var(--dark-pink);

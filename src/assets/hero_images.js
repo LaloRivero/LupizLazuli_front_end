@@ -8,7 +8,7 @@ const images = [
     name: "MyO_casual",
   },
   {
-    url: "https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1630613169/MyO_Casual_HD-78_qb7x82.jpg",
+    url: "https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1630614425/Sofia%20y%20Julienne/SyJ_Boda_Pre-4_yiv2uk.jpg",
     name: "MyO_casual",
   },
   {

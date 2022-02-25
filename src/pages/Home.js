@@ -1,18 +1,24 @@
-import React from 'react';
-import PhotoCarousel from '../components/PhotoCarousel';
-import SectionCard from '../components/SectionCard';
-
+import React from "react";
+import PhotoCarousel from "../components/PhotoCarousel";
+import SectionCard from "../components/SectionCard";
+import "./styles/Home.css";
 
 const Home = () => {
   return (
     <React.Fragment>
-      <PhotoCarousel/>
-      <div>
-        <img src="https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1630614425/Sofia%20y%20Julienne/SyJ_Boda_Pre-4_yiv2uk.jpg" alt="image" />
-        <SectionCard/>
+      <PhotoCarousel />
+      <div className="Home__SecondSection">
+        <div className="SecondSection__container">
+          <img
+            className="SecondSection__image"
+            src="https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1630613988/Eunice%20y%20Daniel/EyD_web_pre-29_o0ffvn.jpg"
+            alt="Section"
+          />
+          <SectionCard />
+        </div>
       </div>
     </React.Fragment>
   );
-}
+};
 
 export default Home;

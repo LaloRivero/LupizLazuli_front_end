@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "./Button";
-import logo from '../assets/img/logo.png'
+import logo from "../assets/img/logo.png";
+import "./styles/SectionCard.css";
 
 const SectionCard = () => {
   return (
-    <React.Fragment className="SectionCard">
+    <div className="SectionCard">
       <div className="SectionCard__content">
         <div className="Image__container">
           <img src={logo} alt="logo" />
@@ -17,11 +18,13 @@ const SectionCard = () => {
             esse ratione reiciendis recusandae fugit corporis.
           </p>
         </div>
-        <div className="SectionCard__button">
-          <Button text={"FIND OUT MORE"}/>
+      </div>
+      <div className="SectionCard__button">
+        <div className="Button__card">
+          <Button text={"FIND OUT MORE"} />
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
