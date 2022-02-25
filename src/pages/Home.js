@@ -1,6 +1,7 @@
 import React from "react";
 import PhotoCarousel from "../components/PhotoCarousel";
 import SectionCard from "../components/SectionCard";
+import Divisor from "../components/Divisor";
 import "./styles/Home.css";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
           <SectionCard />
         </div>
       </div>
+      <Divisor text={"WEDDINGS"}/>
     </React.Fragment>
   );
 };
