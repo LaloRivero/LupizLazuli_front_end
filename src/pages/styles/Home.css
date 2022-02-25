@@ -21,13 +21,13 @@
   width: 550px;
   margin: 35px 20px;
 }
-.Home__photoGallery{
+.Home__weddings{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
 }
-.PhotoGalery__content{
+.Weddings__content{
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
