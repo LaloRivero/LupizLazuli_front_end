@@ -31,8 +31,15 @@ const Home = () => {
       </div>
       <Divisor text={"RECENT GALLERIES"} />
       <div className="Home__galleries">
-        {recent_galleries.map((gallery) => {})}
+        {recent_galleries.map((gallery) => {
+          return(
+            <div className="Gallery__image">
+              <img src={gallery.url} alt={gallery.id} />
+            </div>
+          )
+        })}
       </div>
+      <Divisor />
     </div>
   );
 };

@@ -4,9 +4,9 @@ import "./styles/Wedding.css";
 const Wedding = ({wedding}) => {
   return (
     <React.Fragment>
-      <Link to="/" className="PhotoGallery__container">
+      <Link to="/" className="Wedding__container">
         <img src={wedding.url} alt="gallery" />
-        <p className="PhotoGallery__description">
+        <p className="Wedding__description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
           suscipit hic excepturi corrupti ipsum.
         </p>

@@ -31,3 +31,14 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
+.Home__galleries{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Gallery__image img{
+  width: 400px;
+  margin: 50px 20px;
+  border-radius: 3px;
+}

@@ -1,4 +1,4 @@
-.PhotoGallery__container{
+.Wedding__container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,13 +14,13 @@
   background-color: white;
 }
 
-.PhotoGallery__container img{
+.Wedding__container img{
   width: 400px;
   border-top-left-radius: 3px;
   border-top-right-radius:3px;
 }
 
-.PhotoGallery__description{
+.Wedding__description{
   font-family: 'Forum';
   margin: 15px;
 }
