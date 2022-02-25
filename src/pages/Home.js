@@ -2,12 +2,12 @@ import React from "react";
 import PhotoCarousel from "../components/PhotoCarousel";
 import SectionCard from "../components/SectionCard";
 import Divisor from "../components/Divisor";
-import PhotoGalery from "../components/PhotoGalery";
+import PhotoGallery from "../components/PhotoGallery";
 import "./styles/Home.css";
-import recent_galeries from "../assets/recent_galeries";
+import recent_galleries from "../assets/recent_galleries";
 const Home = () => {
   return (
-    <React.Fragment>
+    <div className="Home">
       <PhotoCarousel />
       <div className="Home__SecondSection">
         <div className="SecondSection__container">
@@ -20,12 +20,15 @@ const Home = () => {
         </div>
       </div>
       <Divisor text={"WEDDINGS"} />
-      <div className="Home__photoGalery">
-        {recent_galeries.map((galery) => {
-          return <PhotoGalery galery={galery} />;
-        })}
+      <div className="Home__photoGallery">
+        <div className="PhotoGalery__content">
+          {recent_galleries.map((gallery) => {
+            return <PhotoGallery gallery={gallery} />;
+          })}
+        </div>
       </div>
-    </React.Fragment>
+      <Divisor text={"RECENT GALLERIES"} />
+    </div>
   );
 };
 

@@ -1,4 +1,4 @@
-const recent_galeries = [
+const recent_galleries = [
   {
     id: 1,
     url: "https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1630613985/Eunice%20y%20Daniel/EyD_web_pre-9_hx6che.jpg",
@@ -37,4 +37,4 @@ const recent_galeries = [
   },
 ];
 
-export default recent_galeries;
+export default recent_galleries;

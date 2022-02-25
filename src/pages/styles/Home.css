@@ -1,3 +1,9 @@
+@import url('../../components/styles/Colors.css');
+
+.Home{
+  background-color: var(--light-gray);
+}
+
 .Home__SecondSection {
   display: flex;
   justify-content: center;
@@ -14,4 +20,14 @@
 .SecondSection__image {
   width: 550px;
   margin: 35px 20px;
+}
+.Home__photoGallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.PhotoGalery__content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }

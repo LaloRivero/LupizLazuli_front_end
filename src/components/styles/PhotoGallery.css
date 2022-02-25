@@ -1,10 +1,10 @@
-.PhotoGalery__container{
+.PhotoGallery__container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 400px;
-  margin: 10px;
+  margin: 20px;
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
   border-radius: 3px;
   padding: 12px 12px 20px 12px;
@@ -13,13 +13,13 @@
   text-align: right;
 }
 
-.PhotoGalery__container img{
+.PhotoGallery__container img{
   width: 400px;
   border-top-left-radius: 3px;
   border-top-right-radius:3px;
 }
 
-.PhotoGalery__description{
+.PhotoGallery__description{
   font-family: 'Forum';
   margin: 15px;
 }
