@@ -3,7 +3,7 @@ import Button from "./Button";
 import logo from "../assets/img/logo.png";
 import "./styles/SectionCard.css";
 
-const SectionCard = () => {
+const SectionCard = ({text}) => {
   return (
     <div className="SectionCard">
       <div className="SectionCard__content">
@@ -12,10 +12,7 @@ const SectionCard = () => {
         </div>
         <div className="Text__container">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            neque provident recusandae quasi doloremque impedit, voluptas
-            eligendi, soluta, culpa dignissimos incidunt alias tempore! Minima
-            esse ratione reiciendis recusandae fugit corporis.
+            {text}
           </p>
         </div>
       </div>
