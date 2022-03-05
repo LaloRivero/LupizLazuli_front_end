@@ -7,8 +7,7 @@ const Wedding = ({wedding}) => {
       <Link to="/" className="Wedding__container">
         <img src={wedding.url} alt="gallery" />
         <p className="Wedding__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
-          suscipit hic excepturi corrupti ipsum.
+          {wedding.description}
         </p>
       </Link>
     </React.Fragment>
