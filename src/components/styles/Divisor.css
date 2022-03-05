@@ -13,6 +13,13 @@
   background: var(--orange);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
 }
+.Divisor__line--alone hr{
+  height: 8px;
+  width: 99vw;
+  border:0;
+  background: var(--orange);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
 .Divisor__text{
   text-align: center;
   font-family: 'Forum';
