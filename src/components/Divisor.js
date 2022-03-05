@@ -2,17 +2,27 @@ import React from "react";
 import "./styles/Divisor.css";
 
 const Divisor = ({ text }) => {
-  return (
-    <div className="Divisor">
-      <div className="Divisor__line">
+  if(text){
+    return (
+      <div className="Divisor">
+        <div className="Divisor__line">
+          <hr />
+        </div>
+        <p className="Divisor__text">{text}</p>
+        <div className="Divisor__line">
         <hr />
+        </div>
       </div>
-      <p className="Divisor__text">{text}</p>
-      <div className="Divisor__line">
-      <hr />
+    );
+  }else{
+    return (
+      <div className="Divisor">
+        <div className="Divisor__line--alone">
+          <hr />
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 };
 
 export default Divisor;
