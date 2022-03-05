@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "./Button";
-import logo from "../assets/img/logo.png";
 import "./styles/SectionCard.css";
 
 const SectionCard = ({text}) => {
@@ -8,7 +7,7 @@ const SectionCard = ({text}) => {
     <div className="SectionCard">
       <div className="SectionCard__content">
         <div className="Image__container">
-          <img src={logo} alt="logo" />
+          <img src={"https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1646451761/logo_xqwrty.png"} alt="logo" />
         </div>
         <div className="Text__container">
           <p>
