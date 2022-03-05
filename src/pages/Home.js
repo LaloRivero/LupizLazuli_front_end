@@ -6,6 +6,7 @@ import Wedding from "../components/Wedding";
 import weddings from "../assets/weddings";
 import recent_galleries from "../assets/recent_galleries";
 import "./styles/Home.css";
+import text from '../assets/text.js'
 
 const Home = () => {
   return (
@@ -15,10 +16,10 @@ const Home = () => {
         <div className="SecondSection__container">
           <img
             className="SecondSection__image"
-            src="https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1630613988/Eunice%20y%20Daniel/EyD_web_pre-29_o0ffvn.jpg"
+            src="https://res.cloudinary.com/lupislazuli-fotografia/image/upload/v1646355679/foto%201%20acompa%C3%B1ada%20de%20texto%201/LYF_postboda_web_coelgp.jpg"
             alt="Section"
           />
-          <SectionCard />
+          <SectionCard text={text.section1_text.text}/>
         </div>
       </div>
       <Divisor text={"WEDDINGS"} />
